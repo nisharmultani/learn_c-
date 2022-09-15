@@ -13,7 +13,7 @@ int main()
     int n = 4;
     // array declaration
     // when we  create specified size array that time we can only store limited value.
-    int arr[4] = {20, 30, 40, 50};
+    int arr[n] = {20, 30, 40, 50};
     //  loop on array
     for (int i = 0; i < n; i++)
     {
@@ -25,7 +25,7 @@ int main()
     }
 
     // print array first element address
-    cout << arr << endl;
+    cout << &arr <<"nishar" << endl;
     // array first element address store same name with array name
     cout << *arr << endl;
     // return garbage value
@@ -37,7 +37,7 @@ int main()
     // its return total byts is allocated to arr varibale
     cout << sizeof(arr) << endl;
 
-    getsizeof(arr);
+    // getsizeof(arr);
     cout << endl;
     cout << endl;
     // main function always return
